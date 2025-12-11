@@ -51,7 +51,7 @@ void loop() {
 
       http.begin(api_url);
 
-      http.POST("\"name\":\"camera_1\",\"date\":\"12/10/25:4:12pm\",\"location\":\"The HUB\"");
+      http.POST("\"name\":\"camera_of_doom\",\"date\":\"12/10/25:4:12pm\",\"location\":\"Ethos:311\"");
 
       http.end();
 
